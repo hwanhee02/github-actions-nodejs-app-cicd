@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Node JS Server is  running at http://${hostname}:${port}/ 실행중`);
+  console.log(`오픈소스소프트웨어 2191232 김환희  JS Server is  running at http://${hostname}:${port}/ 실행중`);
 });
 
 module.exports = server;
